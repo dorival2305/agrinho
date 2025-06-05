@@ -4,16 +4,39 @@
 }
 
 body {
-    font-size: 18px; /* Define um tamanho maior para o texto padrão */
+    margin: 0;
+    padding: 0;
+    background-color: aqua; /
+}
+img {
+    max-width: 70%;
+}
+
+p {
+ margin: 20px;
+
+
+
+}
+.conteudo-container {
+    max-width: 80%; 
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 10px; 
+}
+
+body {
+    font-size: 24px; 
 }
 
 .titulo {
-    font-size: 24px; /* Mantém o título com um tamanho fixo */
+    font-size: 48px; 
     font-weight: bold;
 }
 
 @media (max-width: 768px) {
-    .conteudo {
+    .conteudo-container {
         width: 90%;
     }
 
