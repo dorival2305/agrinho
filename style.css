@@ -32,8 +32,9 @@ p {
 }
 
 .titulo {
-    font-size: 48px;
+    font-size: 68px;
     font-weight: bold;
+    color: rgb(83, 101, 134);;
 }
 
 @media (max-width: 768px) {
@@ -55,3 +56,11 @@ p {
         width: 100%;
     }
 }
+h3 {
+font-size: 25px;
+}
+
+ li { 
+    font-size: 21px;
+
+ }
