@@ -1,6 +1,17 @@
-/* código omitido */
+:root {
+    background-color: aqua;
+    text-align: center;
+}
 
-/* Responsividade */
+body {
+    font-size: 18px; /* Define um tamanho maior para o texto padrão */
+}
+
+.titulo {
+    font-size: 24px; /* Mantém o título com um tamanho fixo */
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .conteudo {
         width: 90%;
@@ -19,25 +30,4 @@
     .cta-button {
         width: 100%;
     }
-}
-
-section p{
-text-align: center;
-
-}
-
-section h2{
-text-align: center;
-}
-
-section h1{
-text-align: center;
-}
-
-section h3{
-text-align: center;
-}
-
-section body{
-text-align: center;
 }
