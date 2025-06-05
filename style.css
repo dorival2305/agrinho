@@ -1,43 +1,43 @@
 :root {
-    background-color: aqua;
+    background-color: rgb(83, 101, 134);
     text-align: center;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua; /
+    display: flex;
+    background-color: rgb(83, 101, 134);; 
+    justify-content: center;
 }
+
+.container {
+    max-width: 80%; 
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
 img {
     max-width: 70%;
+    display: block;
+    margin: 0 auto;
 }
 
 p {
- margin: 20px;
-
-
-
-}
-.conteudo-container {
-    max-width: 80%; 
-    margin: 20px auto; 
-    padding: 20px;
-    background-color: white; 
-    border-radius: 10px; 
-}
-
-body {
-    font-size: 24px; 
+    margin: 20px;
 }
 
 .titulo {
-    font-size: 48px; 
+    font-size: 48px;
     font-weight: bold;
 }
 
 @media (max-width: 768px) {
-    .conteudo-container {
-        width: 90%;
+    .container {
+        width: 95%;
     }
 
     nav ul {
